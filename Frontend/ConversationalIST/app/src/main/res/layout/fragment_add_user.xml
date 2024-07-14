@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".AddUserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/user_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Insert Username"
+                android:paddingStart="16sp"
+                android:paddingEnd="16sp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/add_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add User"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/close_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="closeChatLinkFragment"
+                android:text="X"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/usersList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

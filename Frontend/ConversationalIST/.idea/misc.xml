@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2495" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2495" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/activity_chat_message.xml" value="0.25" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/activity_create_new_account.xml" value="0.1" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/activity_main.xml" value="0.26992753623188404" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/activity_maps.xml" value="0.15121951219512195" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/adapter_message_view_layout.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/adapter_search_view_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/adapter_view_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/fragment_change_pass.xml" value="0.33" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/fragment_map_fragment.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/fragment_maps.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/fragment_new_chat_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/fragment_search_chat_fragment.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/layout/switch_item.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/menu/chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/menu/maps_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/menu/menu.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/salgueiro/Desktop/IST/METI/CMU/PROJ/CMU/Frontend/ConversationalIST/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.118" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_action_search.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_chat_message.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_create_new_account.xml" value="0.2869791666666667" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2869791666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/adapter_message_view_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/adapter_search_view_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/adapter_user_list_view_layout.xml" value="0.11639492753623189" />
+        <entry key="app/src/main/res/layout/adapter_view_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_add_user.xml" value="0.13956433637284701" />
+        <entry key="app/src/main/res/layout/fragment_change_pass.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_chat_link.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_new_chat_fragment.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/fragment_search_chat_fragment.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/fragment_search_view_fragment.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/chat.xml" value="0.2859375" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.2869791666666667" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.2859375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

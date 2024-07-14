@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".SearchChatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/search_by_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Type chat name here"
+                android:paddingStart="16sp"
+                android:paddingEnd="16sp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/close_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:onClick="closeFragment"
+                android:text="X"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--ListView
+            android:id="@+id/searchChatList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" /-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/searchChatList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ChatMessageActivity">
+
+    <item
+        android:id="@+id/action_new_chat"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"
+        android:onClick="new_chat_fragment"
+        android:title="new_chat" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        android:onClick="search_chat_fragment"
+        android:title="search chat" />
+
+    <item
+        android:id="@+id/upgradeAccount"
+        android:title="Change password"
+        android:onClick="upgradeAccountFragment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/darkMode"
+        android:title="Dark mode"
+        app:showAsAction="never"
+        android:onClick="goDarkMode"/>
+
+    <item
+        android:id="@+id/lightMode"
+        android:title="Light mode"
+        app:showAsAction="never"
+        android:onClick="goLightMode"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:onClick="logoutUser" />
+</menu>

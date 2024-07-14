@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/new_chat"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    tools:context=".NewChatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+
+            <EditText
+                android:id="@+id/chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="New Chat Name"
+                android:paddingStart="16sp"
+                android:paddingEnd="16sp"
+                android:textColor="@color/black" />
+
+            <ToggleButton
+                android:id="@+id/isPublicToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textOff="PUBLIC: OFF"
+                android:textOn="PUBLIC: ON" />
+
+            <ToggleButton
+                android:id="@+id/isGeoToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:textOff="GEO: OFF"
+                android:textOn="GEO: ON" />
+
+            <Button
+                android:id="@+id/close_new_chat"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:onClick="closeFragment"
+                android:text="X"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/new_Chat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="createChat"
+            android:text="create new chat"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>
